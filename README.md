@@ -159,3 +159,51 @@ git log --oneline
 ```bash
 git show 커밋아이디
 ```
+
+### 8. commit 내용 수정하기 (수정말고 덮어씌우는걸 추천)
+
+- 바로 전 commit 내용 수정하기
+
+```bash
+git commit --amend
+```
+
+### 9. `GitHub의 온라인 주소 연결`하기
+
+- 등록하기
+
+```bash
+git remote add 별명 주소
+git remote add origin https://github.com/wltjs6668/til_git.git
+```
+
+- 목록 보기
+
+```bash
+git remote -v
+```
+
+- 삭제하기
+
+```bash
+git remote remove 별명
+git remote remove aaa
+git remote -v
+```
+
+### 10. GitHub로 push 하기
+
+```bash
+git push -u 별명 현재 브랜치
+git push -u origin main
+
+git push //위의 명령과 같음
+```
+
+### 11. 최소 알아야하는 git 명령
+
+```bash
+git add .
+git commit
+git push
+```
