@@ -183,7 +183,7 @@ git remote add origin https://github.com/wltjs6668/til_git.git
 git remote -v
 ```
 
-- 삭제하기.
+- 삭제하기
 
 ```bash
 git remote remove 별명
